@@ -1,0 +1,118 @@
+body 		{background-color: #5e8fb5 ;
+	 		 background-attachment: fixed;
+	 		 background-repeat: no-repeat;
+	 		 background-size: cover;
+	 		 font-family: cambria;
+    		} 
+
+
+
+img 		{width: 160px; 
+			 float: right;
+   			 border-radius: 46px; 
+   			 border: solid 10px #04335f;
+  			}
+
+nav			{display: flex;
+    		 width: 600px;
+    		 border: 10px ridge #2e88c7;
+			 border-radius: 20px;;
+   			 text-align: center;
+   			 font-size: 18px;
+    		}
+
+   
+h1			{color: black;
+ 			 text-align: center;
+ 			 font-size: xx-large;
+ 			 font-family: georgia ; 	
+    		 text-shadow: 1px 3px 3px;
+			}
+
+table
+			{border-collapse: collapse; 
+			 width: 50%;
+			}
+				
+td, th		{border: 5px solid black;
+			 padding: 8px;
+			 padding-left: 10px;
+			 font-size: 30px;
+			}
+
+th			{background-color: #b2d8f9
+			}
+
+.coordonneesmel{
+			 width: 380px;
+			 border: 10px ridge #2e88c7;
+			 padding-left: 15px;
+			 border-radius: 20px;
+			 margin-bottom: 15px;}
+
+
+.Experience {border: 10px ridge #2e88c7;
+			 border-radius: 20px;
+			 padding-left: 10px;
+			 margin-bottom: 15px;
+ 			}
+
+ .Formation {border: 10px ridge #2e88c7;
+			 border-radius: 20px;
+			 padding-left: 10px;
+			 margin-bottom: 15px;
+ 			}
+
+ .Langues 	{border: 10px ridge #2e88c7;
+			 border-radius: 20px;
+			 padding-left: 10px;
+			 margin-bottom: 15px;
+ 			}
+
+ .Permis	{border: 10px ridge #2e88c7;
+			 border-radius: 20px;
+			 margin-bottom: 15px;
+ 			}
+
+.Vidéo 		{border: 10px ridge #2e88c7;
+			 border-radius: 20px;
+			}
+
+@font-face 	{font-family: 'Game of Thrones';
+    		src: url('GameofThrones.eot');
+    		src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+     		url('GameofThrones.woff') format('woff'),
+      		url('GameofThrones.ttf') format('truetype');
+    		font-weight: normal;
+   			font-style: normal;
+			}
+
+nav,h3,h2,h1{font-family: 'Game of Thrones';
+			}
+
+
+
+/*Media queries*/
+
+@media all and (max-width: 1024px) 
+	
+	{	
+
+	body		{
+				width: auto;
+				}
+	
+	header img	{width: 110px;
+				float:right;
+				margin-left:15px;
+				}		
+	
+	h1			{
+				text-shadow: none;
+				}
+	
+	nav			{text-align: left;
+	    		font-size: 15px;
+    			border:none;
+				}
+	}

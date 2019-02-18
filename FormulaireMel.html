@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<LINK rel=stylesheet type="text/css" href="../css/style.css">
+		<title>contact</title>
+	</head>		
+
+	<body class="bodymel">
+		
+			<h1>CONTACT</h1>
+
+			<div class="contact">
+			<form method="post" action="https://httpbin.org/post">
+				
+				<label>Pseudo</label> 
+				<p><input type="text" name="pseudo"/></p>
+				
+
+				<p>Dans quelle tranche d'age vous situez vous?</p>
+
+				<div>
+					<input type="radio" id="15-25ans" name="age" value="15-25ans" checked>
+					<label for="15-25ans">15-25 ans</label><br/>
+					<input type="radio" id="25-35ans" name="age" value="25-35ans">
+					<label for="25-35ans">25-35 ans</label><br/>
+					<input type="radio" id="35-45ans" name="age" value="35-45ans">
+					<label for="35-45ans">35-45 ans</label>
+				</div>
+
+				<p>
+					<label for="département-de-résidence">Séléctionnez votre département de résidence :</label>
+
+					<select id="département-de-résidence" name="département">
+						<option value="">--Choisissez une option--</option>
+						<option value="Isère">Isère</option>
+						<option value="Rhone">Rhone</option>
+						<option value="Savoie">Savoie</option>
+						<option value="Haute-Savoie">Haute-Savoie</option>
+					</select>
+				</p>
+
+	
+				<label for="Infos">Quelques infos sur vous</label>
+				<div style="text-align: left; padding-left: 20px" >
+					<textarea id= "Infos" name="infos" rows="5" cols="40"> A propos de vous</textarea>
+					<input type="submit" value="Envoyer"/>
+				</div>
+			
+			</form>
+		</div>
+	</body>
+</html>	
